@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicalstructure.PlayListActivity">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/horizontal_guide_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+    <!--ACTIVITIES LINKS-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/medium_margin"
+        app:layout_constraintBottom_toTopOf="@id/horizontal_guide_top"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/main_text_button_tracks"
+            style="@style/menu_text_style"
+            android:textSize="14sp"
+            android:text="@string/tracks" />
+        <TextView
+            android:id="@+id/main_text_button_albums"
+            style="@style/menu_text_style"
+            android:textSize="14sp"
+            android:text="@string/albums" />
+
+        <TextView
+            android:id="@+id/main_text_button_playlist"
+            style="@style/menu_text_style"
+            android:textSize="14sp"
+            android:background="@color/colorAccent"
+            android:textColor="@android:color/white"
+            android:text="@string/playlists" />
+
+        <TextView
+            android:id="@+id/main_text_button_store"
+            style="@style/menu_text_style"
+            android:textSize="14sp"
+            android:text="@string/store" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/medium_margin"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/text_playlist"
+        android:background="@color/textcolor"
+        app:layout_constraintTop_toBottomOf="@id/horizontal_guide_top"
+        />
+
+</android.support.constraint.ConstraintLayout>
