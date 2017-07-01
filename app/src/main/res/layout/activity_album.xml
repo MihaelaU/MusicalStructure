@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.android.musicalstructure.AlbumActivity">
-
+//links to other activities
     <android.support.constraint.Guideline
         android:id="@+id/horizontal_guide_top"
         android:layout_width="match_parent"
