@@ -11,7 +11,7 @@
     <string name="display_time">0:00</string>
     <string name="text_tracks">This screen is going to show individual tracks</string>
     <string name="text_albums">This screen the user will have albums list</string>
-    <string name="text_playlist">This screen the user can see the save playlist</string>
+    <string name="text_playlist">This screen the user can see the saved playlist</string>
     <string name="text_store">This screen the user will be able to search and buy or add more songs. I would include Spotify API, because it is one of the most popular API used now, this would involve
     also a strong community to contribute with feedback</string>
     <string name="title_activity_test">test</string>
